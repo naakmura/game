@@ -10,12 +10,15 @@
 <body background="http://wallpaper.sc/iphone6plus/wp-content/uploads/2016/09/436.png">
 <Div Align="center">
 <font color="white">
-<p> カートの中身 </p>
+
+    <font size="7">カートの中身</font>
 <form action="/cart_delete" method="POST">
     <?= csrf_field() ?>
-    <input type="submit" value="カートから全て消去する"><br><br>
-</form>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <input type="submit" value="カートから全て消去する">      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <input type="button" onclick="location.href='/buy'"value="購入画面へ">
 
+
+</form>
+<br>
 <?php foreach($items as $item): ?>
 <font color="white">
     <div>
@@ -28,9 +31,9 @@
 
 
 
-            <input type="submit" value="カートから消去する"><br><br><br><br><br><br><br>
+            <input type="submit" value="カートから消去する"><br><br><br><br><br>
 
-    <input type="button" onclick="location.href='/buy'"value="購入画面へ">
+
 
 
 <?php endforeach; ?></form>

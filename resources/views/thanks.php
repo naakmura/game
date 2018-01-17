@@ -11,9 +11,10 @@
 ">
 <font color="white">
     <br><br><br><br><br><br><br>  <Div Align="center">
-<p>購入ありがとうございました。</p>
 
+        <font size="9">ご購入ありがとうございました</font>
 
+       <br><br> <br> <br> <br> <br> <br>  <input type="button" onclick="location.href='http://192.168.10.10/'"value="トップ画面へ戻る">
 
 
 </body>
